@@ -38,6 +38,8 @@ paths:
       summary: Add a new pet to the store
       operationId: addPet
       responses:
+        '200':
+          description: Success
         '400':
           description: Invalid input
       security:
